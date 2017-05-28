@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>GraphX</title>
+	<link href="assets/css/bootstrap.css" rel="stylesheet">
+	<script type="text/javascript" src="assets/js/angular.js"></script>
+	<script type="text/javascript" src="assets/js/angular-ui-router.js"></script>
+	<script type="text/javascript" src="assets/js/ui-bootstrap.js"></script>
+	<script type="text/javascript" src="assets/js/ui-bootstrap-tpls.js"></script>
+	<script type="text/javascript" src="app/main.module.js"></script>
+	<script type="text/javascript" src="app/core/core.module.js"></script>
+	<script type="text/javascript" src="app/core/core.route.js"></script>
+	<script type="text/javascript" src="app/card/card.module.js"></script>
+	<script type="text/javascript" src="app/card/card.route.js"></script>
+	<script type="text/javascript" src="app/card/cards.service.js"></script>
+	<script type="text/javascript" src="app/card/CardListController.controller.js"></script>
+	<script type="text/javascript" src="app/card/CommentsController.controller.js"></script>
+	<script type="text/javascript" src="app/card/show-more.directive.js"></script>
+
+</head>
+<body ng-app="mainModule">
+
+	<div class="container">
+		<div ui-view="navbar"></div>
+		<div ui-view="content"></div>
+	</div>
+</body>
+</html>
